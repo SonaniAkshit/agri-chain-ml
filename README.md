@@ -10,12 +10,18 @@ Agri-Chain is an end-to-end Machine Learning solution designed to empower farmer
 
 ## 📂 Project Structure
 ```text
+Agri-Chain/
 ├── data/               # Raw and processed datasets
 ├── notebooks/          # Jupyter notebooks for EDA and Model Development
 ├── models/             # Serialized ML models (.pkl / .h5)
 ├── src/                # Backend API logic (FastAPI)
 ├── app/                # Frontend UI (Streamlit)
-└── requirements.txt    # Project dependencies
+├── docs/               # <--- College/Internship Documentation (Reports, PPTs)
+│   ├── reports/        # SRS, Final Project Report (PDF/Word)
+│   ├── presentations/  # Final Viva PPTs
+│   └── diagrams/       # Flowcharts, ER-Diagrams, System Architecture
+├── requirements.txt    # Project dependencies
+└── README.md           # Project details
 ```
 
 ## 🛠️ Tech Stack
