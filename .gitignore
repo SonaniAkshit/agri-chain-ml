@@ -1,0 +1,88 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# FastAPI / General Logs
+# =========================
+*.log
+logs/
+*.sqlite3
+*.db
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+~$*
+*.swp
+
+# =========================
+# Build / Cache
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+.cache/
+
+# =========================
+# Docs unwanted files
+# =========================
+docs/~$*
+docs/*.tmp
+
+# =========================
+# Data files (optional)
+# =========================
+# Uncomment if large datasets
+# data/
+# *.csv
+# *.xlsx
+
+# =========================
+# Model files (optional)
+# =========================
+# *.pkl
+# *.joblib
+# *.h5
